@@ -555,7 +555,7 @@ Wire Wire Line
 	5050 5150 5050 5250
 Wire Wire Line
 	5700 5700 5700 6050
-Text Label 8850 3150 0    50   ~ 0
+Text Label 8600 3150 0    50   ~ 0
 OUT
 Text Notes 850  3850 0    50   ~ 0
 High Voltage AC Input
@@ -571,5 +571,91 @@ F 2 "Resistor_SMD:R_1206_3216Metric" V 1830 3250 50  0001 C CNN
 F 3 "~" H 1900 3250 50  0001 C CNN
 	1    1900 3250
 	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60747F6D
+P 9000 2900
+F 0 "#FLG0101" H 9000 2975 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 3073 50  0000 C CNN
+F 2 "" H 9000 2900 50  0001 C CNN
+F 3 "~" H 9000 2900 50  0001 C CNN
+	1    9000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 6074901F
+P 9000 3450
+F 0 "#FLG0102" H 9000 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 3623 50  0000 C CNN
+F 2 "" H 9000 3450 50  0001 C CNN
+F 3 "~" H 9000 3450 50  0001 C CNN
+	1    9000 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 3350 9000 3350
+Wire Wire Line
+	9000 3350 9000 3450
+Wire Wire Line
+	9300 3050 9000 3050
+Wire Wire Line
+	9000 3050 9000 2900
+Connection ~ 9300 3050
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6074EA99
+P 1500 5200
+F 0 "H1" H 1600 5246 50  0000 L CNN
+F 1 "MountingHole" H 1600 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 1500 5200 50  0001 C CNN
+F 3 "~" H 1500 5200 50  0001 C CNN
+	1    1500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6074F120
+P 1500 5550
+F 0 "H2" H 1600 5596 50  0000 L CNN
+F 1 "MountingHole" H 1600 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 1500 5550 50  0001 C CNN
+F 3 "~" H 1500 5550 50  0001 C CNN
+	1    1500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6074F65C
+P 1500 5900
+F 0 "H3" H 1600 5946 50  0000 L CNN
+F 1 "MountingHole" H 1600 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 1500 5900 50  0001 C CNN
+F 3 "~" H 1500 5900 50  0001 C CNN
+	1    1500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6074FC40
+P 1500 6250
+F 0 "H4" H 1600 6296 50  0000 L CNN
+F 1 "MountingHole" H 1600 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 1500 6250 50  0001 C CNN
+F 3 "~" H 1500 6250 50  0001 C CNN
+	1    1500 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 607503FD
+P 1500 6600
+F 0 "FID1" H 1585 6646 50  0000 L CNN
+F 1 "Fiducial" H 1585 6555 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1500 6600 50  0001 C CNN
+F 3 "~" H 1500 6600 50  0001 C CNN
+	1    1500 6600
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
