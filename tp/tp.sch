@@ -701,4 +701,15 @@ Connection ~ 3500 3250
 Wire Wire Line
 	2750 3650 3500 3650
 Connection ~ 3500 3650
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 607DD604
+P 1500 6850
+F 0 "FID2" H 1585 6896 50  0000 L CNN
+F 1 "Fiducial" H 1585 6805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1500 6850 50  0001 C CNN
+F 3 "~" H 1500 6850 50  0001 C CNN
+	1    1500 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
