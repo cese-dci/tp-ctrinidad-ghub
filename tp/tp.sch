@@ -8,10 +8,10 @@ Title "ZMPT101B - AC Voltage Sensor"
 Date "2021-03-20"
 Rev "1"
 Comp ""
-Comment1 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
-Comment2 "Reviewer: Felipe Calcavecchia"
-Comment3 "Author: Cristian Trinidad"
-Comment4 ""
+Comment1 "https://creativecommons.org/license/by-sa/4.0/"
+Comment2 "Released under the Creative Commons Attribution Share-Alike 4.0 Licence"
+Comment3 "Reviewer: Felipe Calcavecchia"
+Comment4 "Author: Cristian Trinidad"
 $EndDescr
 $Comp
 L ZMPT101B:ZMPT101B T1
